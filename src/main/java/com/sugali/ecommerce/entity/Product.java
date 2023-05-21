@@ -27,6 +27,8 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
 	private Long id;
+
+	private Long some;
 	
 	@ManyToOne
 	@JoinColumn(name="category_id",nullable=false)
