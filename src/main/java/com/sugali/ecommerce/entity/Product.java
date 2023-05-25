@@ -31,6 +31,8 @@ public class Product {
 	private Long some;
 
 	private Long another;
+
+	private Long lsjf;
 	
 	@ManyToOne
 	@JoinColumn(name="category_id",nullable=false)
