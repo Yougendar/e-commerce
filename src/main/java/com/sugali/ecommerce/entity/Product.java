@@ -32,7 +32,7 @@ public class Product {
 
 	private Long another;
 
-	private Long lsjfllkjihgppppppppppp;
+	private Long lsjfllkjihgppppppp;
 	
 	@ManyToOne
 	@JoinColumn(name="category_id",nullable=false)
