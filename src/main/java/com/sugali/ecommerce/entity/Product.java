@@ -29,6 +29,8 @@ public class Product {
 	private Long id;
 
 	private Long some;
+
+	private Long another;
 	
 	@ManyToOne
 	@JoinColumn(name="category_id",nullable=false)
